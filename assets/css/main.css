@@ -1223,7 +1223,7 @@ body {
 .upper-bar .contact-us-bar a {
     font-size: 12px;
     margin-right: 12px;
-    color: #02185a;
+    color: #fff;
     font-weight: 500;
     border-right: 2px solid #ccc;
     padding-right: 12px;
@@ -2416,8 +2416,8 @@ nav {
 .play-video div.play {
     background: transparent;
     border: 2px solid #FFF;
-    width: 51px;
-    height: 51px;
+    width: 50px;
+    height: 50px;
     line-height: 49px;
     border-radius: 50%;
     position: relative;
@@ -2426,7 +2426,7 @@ nav {
     text-align: center;
     color: #fff;
     margin-right: 5px;
-    margin-left: 15px;
+    margin-left: 20px;
     transition: all 0.4s;
 }
 
