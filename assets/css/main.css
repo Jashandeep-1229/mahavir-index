@@ -7642,11 +7642,12 @@ footer .copyright a {
     
 }
 .contact-item {
-        margin-bottom: 30px;
+    margin-bottom: 30px;
     background: #ffffff;
     padding: 30px 20px;
     border: 1px solid #eee;
     border-radius: 2px;
+    box-shadow: 0px 0px 50px -30px #666 ;
 }
 .contact-item  .inner-contact {
     position: relative;
@@ -7686,6 +7687,12 @@ footer .copyright a {
     line-height: 15px;
     position: relative;
 }
+.contact-us-meta .contact-item p a{
+    color: #666;
+}
+.contact-us-meta .contact-item p a:hover{
+    color: #cb1618;
+}
 
 .img-contact {
     position: relative;
@@ -7723,13 +7730,7 @@ footer .copyright a {
 /******** header-breadcrumb ******/
 
 .header-breadcrumb {
-   padding: 140px 0;
-    background-image: url(../images/header/header-03.jpg);
-    min-height: 100%;
-    position: relative !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
+    padding: 100px 0;
     height: 100%;
     width: 100%;
 }
@@ -7740,7 +7741,7 @@ footer .copyright a {
     height: 100%;
     background: #FFF;
     width: 100%;
-        border-top: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
 }
 .header-breadcrumb::after {
     background: rgba(50, 50, 50, 0.4);
@@ -7768,7 +7769,7 @@ footer .copyright a {
 }
 
 .page-title-line {
-    color: #eee;
+    color: #eee !important;
     display: block;
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
@@ -7779,7 +7780,6 @@ footer .copyright a {
     margin: 0;
     margin-bottom: 15px;
     font-weight: 600;
-
     position: relative;
 }
 
