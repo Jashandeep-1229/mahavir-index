@@ -3995,9 +3995,8 @@ text-right {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    transition: 0.4s;
+    transition: 0.3s;
     margin-bottom: 30px;
-    padding-left: 35px;
 }
 .services-item-three:hover .content-box {
     background: #02185a;
@@ -4006,31 +4005,32 @@ text-right {
 }
 .services-item-three:hover .content-box h4,
 .services-item-three:hover .content-box p,
+.services-item-three:hover .content-box ul li,
 .services-item-three:hover  .btn-read-more {
     color: #FFF;
 }
 .services-item-three .content-box {
     z-index: 5;
     text-align: left;
-    padding: 40px 30px 40px 65px;
-    background: #FFF;
+    padding: 40px 30px 40px 35px;
+    background: rgb(247, 251, 255);
     border: 1px solid #f1f1f1;
     border-bottom: 3px solid #cb1618;
     transition: 0.4s;
 }
 
-.services-item-three .content-box span {
+/* .services-item-three .content-box span {
     color: #fff;
     display: block;
     position: absolute;
-    left: 0;
-    top: 45px;
+    left: 10px;
+    top: 55%;
     height: 75px;
     width: 75px;
     background: #cb1618;
     text-align: center;
     line-height: 70px;
-}
+} */
 
 .services-item-three .content-box span::before {
         margin: 0;
@@ -4038,7 +4038,7 @@ text-right {
 }
 .services-item-three .content-box h4 {
     color: #02185a;
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 600;
     margin-bottom: 0px;
     text-transform: capitalize;
@@ -4048,9 +4048,25 @@ text-right {
 .services-item-three .content-box p {
     margin-bottom: 0;
     line-height: 24px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
-
+.services-item-three .content-box ul {
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.services-item-three .content-box ul li {
+    color: #fff;
+    display: inline;
+    padding: 2px 7px;
+    line-height: 2;
+    border-radius: 5px;
+    background-color: #2e3e6c;
+    list-style-type: disc;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+}
 
 
 
