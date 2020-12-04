@@ -469,9 +469,7 @@ p {
     text-align: right;
 }
 /*========== My Classes ==========*/
-.section-title {
-    margin-bottom: 50px;
-}
+
 .section-title-left {
     margin-bottom: 30px;
 }
@@ -1449,13 +1447,12 @@ nav {
 .navbar-toggle {
     height: 32px;
     line-height: 32px;
-    width: 30px;
+    width: 40px;
     cursor: pointer;
-    top: 35px;
+    top: 40px;
     right: 15px;
     position: absolute;
     display: none;
-    
 }
 .navbar-toggle span {
     -webkit-transition: 0.4s ease-in-out;
@@ -1624,11 +1621,11 @@ nav {
     padding: 0;
     list-style: none;
     position: absolute;
-    width: 230px;
+    width: 275px;
     visibility: hidden;
     opacity: 0;
-    background: #fff;
-    box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.08);
+    background: rgb(241, 249, 255);
+    box-shadow: 0px 3px 25px -5px rgba(0, 0, 0, 0.428);
     border-bottom: 3px solid#cb1618;
     margin-left: 0px;
 }
@@ -1668,7 +1665,13 @@ nav {
 .nav-item.has-dropdown > ul.sub-menu li a:hover {
     color: #02185a;
     opacity: 1;
-    background: #f9f9f9;
+    background: #bdccd1;
+    padding-right: 20px;
+}
+.nav-item.has-dropdown > ul.sub-menu li.dactive a{
+    color: #02185a;
+    opacity: 1;
+    background: #bdccd1;
     padding-right: 20px;
 }
 .nav-item.has-dropdown:hover ul.sub-menu {
@@ -2735,6 +2738,7 @@ text-right {
     position: relative;
     padding: 50px 0 20px;
 }
+
 .info-about-us .about-us-item {
     position: relative;
     margin-bottom: 30px;
@@ -3163,8 +3167,8 @@ text-right {
     background: #f9f9f9;
 }
 .about-two .p-about-two {
-    padding-bottom: 25px;
-    margin-bottom: 35px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
     border-bottom: 1px solid #ddd;
 }
 .about-two .why-us {
@@ -3904,14 +3908,14 @@ text-right {
     border: 1px solid #f1f1f1;
     border-bottom: 3px solid #cb1618;
     position: relative;
+    box-shadow: 0 10px 20px -15px #02185a;
 }
 .services-item-one .content-box h4 {
     color: #02185a;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     margin-bottom: 0px;
     text-transform: capitalize;
-    padding-left: 70px;
     padding-top: 3px;
     line-height: 25px;
 }
@@ -3934,7 +3938,24 @@ text-right {
 .services-item-one .content-box p {
     margin-bottom: 0;
     line-height: 24px;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.services-item-one .content-box ul{
+    padding: 0;
+    margin-top: 5px;
+}
+.services-item-one .content-box ul li{
+    display: inline;
+    padding: 5px 8px;
+    background: #f0f0f0;
+    color: rgb(39, 39, 39);
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.51rem;
+}
+.services-item-one .content-box ul li:hover{
+    background-color: #c4c4c4;
 }
 .services-item-one .content-box .read-more {
     color: #898989;
@@ -4962,15 +4983,25 @@ text-right {
 }
 .case-three .owl-nav div.owl-prev,
 .case-single .owl-nav div.owl-prev {
-    left: 10px;
+    left: -60px;
     position: absolute;
     transition: all 0.4s ease 0s;
 }
 .case-three .owl-nav div.owl-next,
 .case-single .owl-nav div.owl-next {
-    right: 10px;
+    right: -60px;
     position: absolute;
     transition: all 0.4s ease 0s;
+}
+@media (max-width: 576px){
+.case-three .owl-nav div.owl-prev,
+.case-single .owl-nav div.owl-prev {
+    left: 0px;
+}
+.case-three .owl-nav div.owl-next,
+.case-single .owl-nav div.owl-next {
+    right: 0px;
+}
 }
 .case-single.owl-carousel.owl-drag .owl-item {
     width: 100%;
@@ -5031,7 +5062,12 @@ text-right {
     padding: 30px;
     border-bottom: 3px solid #cb1618;
     width: 60%;
+    box-shadow: 0 0 15px -5px #02185a;
+}
 
+.case-three .text-of-case h5{
+    color: #02185a;
+    font-size: 18px;
 }
 .portfolio-page-three {
     background: #02185a;
@@ -7853,4 +7889,50 @@ footer .copyright a {
 
 
 */
+
+/* About Us */
+.info-about p{
+    line-height: 24px;
+}
+
+/* Hiden on Screen Below 459px */
+@media (max-width: 576px){
+    .hide-sm{
+        display: none;
+    }
+}
+
+/* Product - Table */
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0; margin: auto 0px;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-cft5{background-color:#FFF;border-color:#680100;color:#4D4D4D;text-align:center;vertical-align:middle}
+.tg .tg-pdfk{background-color:#330001;border-color:#ce6301;color:#ffffff;text-align:center;vertical-align:middle}
+.tg .tg-w13p{background-color:#ffffff;border-color:#680100;text-align:center;vertical-align:middle}
+.tg .tg-vv62{background-color:#FFF;border-color:#680100;text-align:center;vertical-align:middle}
+.tg .tg-vagu{background-color:#680100;border-color:#ffffff;color:#ffffff;text-align:center;vertical-align:middle}
+.tg .tg-eerv{background-color:#680100;border-color:#ffffff;color:#ffffff;text-align:center;vertical-align:middle}
+.tg .tg-7oz8{background-color:#ffffff;border-color:#680100;color:#4D4D4D;text-align:center;vertical-align:middle}
+.tg .tg-4iew{background-color:#ffffff;border-color:#680100;text-align:center;vertical-align:middle}
+.tg .tg-d8ov{background-color:#ffffff;border-color:#680100;color:#4D4D4D;text-align:center;vertical-align:middle}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch; margin: auto 0px;}}
+
+
+/* Cut To Length */
+
+.tg .tg-nlv1{background-color:#330001;border-color:#ffffff;color:#ffffff;font-size:26px;text-align:center;vertical-align:middle}
+.tg .tg-w13p{background-color:#ffffff;border-color:#680100;text-align:center;vertical-align:middle}
+.tg .tg-ddjm{background-color:#680100;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-zewx{background-color:#680100;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-4iew{background-color:#ffffff;border-color:#680100;text-align:center;vertical-align:middle}
+
+/* Hydrulic Decoiler With Coil Car */
+.tg .tg-w13p{background-color:#ffffff;border-color:#680100;text-align:center;vertical-align:middle}
+.tg .tg-1rx2{background-color:#680100;border-color:inherit;color:#FFF;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-ez6n{background-color:#680100;border-color:#ffffff;color:#FFF;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-4iew{background-color:#ffffff;border-color:#680100;text-align:center;vertical-align:middle}
+.tg .tg-35fm{background-color:#680100;border-color:#ffffff;color:#FFF;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-k5ft{background-color:#680100;border-color:inherit;color:#FFF;font-weight:bold;text-align:center;vertical-align:middle}
 

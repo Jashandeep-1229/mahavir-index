@@ -255,7 +255,7 @@
     if ($('.case-three')[0]) {
         $('.case-three').owlCarousel({
             center: true,
-            items: 3,
+            items: 5,
             loop: true,
             smartSpeed: 1000,
             autoplay: 3000,
@@ -267,8 +267,11 @@
                 0: {
                     items: 1
                 },
-                987: {
-                    items: 2
+                575: {
+                    items: 1
+                },
+                1200: {
+                    items: 3
                 }
             }
 
