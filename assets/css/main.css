@@ -648,6 +648,30 @@ p {
     background: #cb1618;
     color: #FFF;
 }
+
+.text-btn input[type=submit].text-btn-one{
+    display: block;
+    text-align: center;
+    min-width: 150px;
+    height: 50px;
+    padding: 0 15px;
+    background: #cb1618;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.text-btn input[type=submit].text-btn-one:hover{
+    display: block;
+    text-align: center;
+    min-width: 150px;
+    height: 50px;
+    padding: 0 15px;
+    background: #02185a;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
 .main-btn-one .text-btn .text-btn-two,
 .main-btn-two .text-btn .text-btn-two,
 .main-btn-three .text-btn .text-btn-two,
