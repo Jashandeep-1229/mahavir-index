@@ -672,6 +672,24 @@ p {
     border: none;
     cursor: pointer;
 }
+
+.text-btn input[type=submit].text-btn-two{
+    display: block;
+    text-align: center;
+    min-width: 150px;
+    height: 50px;
+    padding: 0 15px;
+    background: #02185a;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.text-btn input[type=submit].text-btn-two:hover{
+    background: #FFF;
+    color: #02185a;
+}
+
 .main-btn-one .text-btn .text-btn-two,
 .main-btn-two .text-btn .text-btn-two,
 .main-btn-three .text-btn .text-btn-two,
