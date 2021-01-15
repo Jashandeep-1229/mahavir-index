@@ -4,10 +4,10 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'New Contact Form <noreply@businessviewasia.com>';
+$from = 'New Message <noreply@masfeeders.com.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'New Contact Query <samar@businessviewasia.com>';
+$sendTo = 'Maruti Automation Solution <marutiautomationsolution@gmail.com>';
 
 // subject of the email
 $subject = 'New message ';
@@ -46,8 +46,6 @@ try
     // All the neccessary headers for the email.
     $headers = array('Content-Type: text/plain; charset="UTF-8";',
         'From: ' . $from,
-        'Reply-To: ' . $from,
-        'Return-Path: ' . $from,
     );
     
     // Send email
