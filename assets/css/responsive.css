@@ -65,9 +65,6 @@
     right: 60px;
     position: absolute;
 }
-.my-logo {
-    
-}
 /*========== Start Navbar ==========*/   
 .navbar-toggle {
     display: block;
@@ -215,9 +212,8 @@
 }
 .section-title h3,
 .section-title-left h3 {
-    font-size: 26px;
+    font-size: 26px !important;
     line-height: 30px;
-
 }
 .p-title-section {
 margin-top: 0px;
