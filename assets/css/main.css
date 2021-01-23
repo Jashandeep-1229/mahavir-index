@@ -8044,4 +8044,14 @@ footer .copyright a {
 .list-style-dark li.active a, 
 .list-style-dark li a:hover{
     color: #f6de06;
-} 
+}
+.tools{
+    background-image: url('../images/about/bg-layer.png');
+    background-size: cover;
+    background-color: white;
+}
+.design{
+    font-family: Roboto !important;
+    font-size: 68px !important;
+    line-height: 1em !important;
+}
